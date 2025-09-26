@@ -1,0 +1,1 @@
+def render_folder(f,max_workers=3):print('batch render stub')

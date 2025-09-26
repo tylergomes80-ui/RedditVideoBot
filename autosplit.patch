@@ -1,0 +1,54 @@
+diff --git a/utils.py b/utils.py
+index 1111111..2222222 100644
+--- a/utils.py
++++ b/utils.py
+@@
+ from moviepy.editor import VideoFileClip
+ import os
++
++
++def split_video(video_path, max_duration=360):
++    """
++    Splits video into parts if longer than max_duration (default 6 minutes).
++    Returns list of file paths.
++    """
++    clip = VideoFileClip(video_path)
++    duration = clip.duration
++    output_files = []
++
++    if duration <= max_duration:
++        clip.close()
++        return [video_path]
++
++    base, ext = os.path.splitext(video_path)
++    start = 0
++    part = 1
++
++    while start < duration:
++        end = min(start + max_duration, duration)
++        subclip = clip.subclip(start, end)
++        out_file = f"{base}_part{part}{ext}"
++        subclip.write_videofile(out_file, codec="libx264", audio_codec="aac")
++        output_files.append(out_file)
++        start += max_duration
++        part += 1
++
++    clip.close()
++    return output_files
+diff --git a/god_mode_bot.py b/god_mode_bot.py
+index 3333333..4444444 100644
+--- a/god_mode_bot.py
++++ b/god_mode_bot.py
+@@
+-print(f"\n🎬 All steps completed! Your video is ready in the output folder.")
++from utils import split_video
++
++print("\n🎬 Checking if video needs splitting...")
++parts = split_video(output_path)
++
++if len(parts) > 1:
++    print(f"🎬 Video was long — split into {len(parts)} parts:")
++    for p in parts:
++        print(f"   {p}")
++else:
++    print(f"🎬 Final video ready: {parts[0]}")

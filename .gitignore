@@ -1,0 +1,42 @@
+# Python cache
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Outputs
+output/
+audio/
+
+# Assets (heavy)
+assets/backgrounds/
+assets/music/
+assets/sfx/
+assets/ambience/
+
+# Backups
+backup_*/
+
+# Runtime artifacts
+stories_dump.txt
+.history/
+
+# OS cruft
+.DS_Store
+Thumbs.db

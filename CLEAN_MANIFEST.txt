@@ -1,0 +1,22 @@
+# CLEAN_MANIFEST.txt
+# Files/folders to quarantine during upgrade
+
+__pycache__/
+*.pyc
+*.old
+*.bak
+*.tmp
+demo_story.txt
+test_*.*
+sample_*.*
+old_assets/*
+*.mp4
+*.webm
+*.wav
+*.mp3
+assets/backgrounds/minecraft_dark/*
+assets/backgrounds/moody_city/*
+assets/music/*
+assets/sfx/*
+assets/ambience/*
+.quarantine_*

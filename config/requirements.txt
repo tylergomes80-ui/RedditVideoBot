@@ -1,0 +1,14 @@
+typer
+rich
+pyyaml
+ffmpeg-python
+pydub
+srt
+soundfile
+numpy
+textblob
+sqlite-utils
+schedule
+flask
+moviepy
+praw

@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: RedditVideoBot
+Version: 4.0.0
+Requires-Dist: typer
+Requires-Dist: rich
+Requires-Dist: pyyaml
+Requires-Dist: ffmpeg-python
+Requires-Dist: pydub
+Requires-Dist: srt
+Requires-Dist: soundfile
+Requires-Dist: numpy
+Requires-Dist: textblob
+Requires-Dist: sqlite-utils
+Requires-Dist: schedule
+Requires-Dist: flask
+Dynamic: requires-dist

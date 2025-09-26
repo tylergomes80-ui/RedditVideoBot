@@ -1,0 +1,717 @@
+reddit:
+  client_id: IvOL5B7EnemqejaXQbgGEw
+  client_secret: 22B5-D9orOqwPU9YBH6T2Po7VWb7Cw
+  user_agent: "script:redditvideobot:v1.0 (by u/NightmareExe01)"
+  subreddit:
+    - nosleep
+    - shortscarystories
+    - creepypasta
+    - LetsNotMeet
+    - nosleepfinder
+    - ParanormalEncounters
+    - Glitch_in_the_Matrix
+    - TrueScaryStories
+    - CreepyEncounters
+    - UnresolvedMysteries
+  limit: 5
+  min_score: 10
+  max_length: 15000
+
+azure:
+  key: 7oFD4S7lqwQdTLUUHCdE2zzvhZ3Z9tIAMDHog69xjTMHLY7fuKXnJQQJ99BIACYeBjFXJ3w3AAAYACOGyzeE
+  region: eastus
+  voice: en-US-AriaNeural
+  style: default
+
+tts:
+  engine: azure
+  voice: en-US-AriaNeural
+  rate: +0%
+
+render:
+  font: C:\Windows\Fonts\arial.ttf
+  font_size: 40
+  line_height: 1.25
+  subtitle_box: true
+  subtitle_max_width_px: 900
+  subtitle_bottom_margin_px: 180
+  bg_blur: false
+  music_volume: 0.3
+  music_duck: 0.6
+  shorts_max_seconds: 60
+  make_shorts: true
+  vertical_resolution: [1080, 1920]
+  fps: 30
+
+
+render:
+  font: C:\Windows\Fonts\arial.ttf
+  font_size: 40
+  line_height: 1.25
+  subtitle_box: true
+  subtitle_max_width_px: 900
+  subtitle_bottom_margin_px: 180
+  bg_blur: false
+  music_volume: 0.3
+  music_duck: 0.6
+  shorts_max_seconds: 60
+  make_shorts: true
+  vertical_resolution: [1080, 1920]
+  fps: 30
+
+assets:
+  backgrounds:
+    - https://example.com/background1.mp4
+    - https://example.com/background2.mp4
+  music:
+    - https://example.com/music1.mp3
+    - https://example.com/music2.mp3
+  sfx:
+    - https://example.com/sfx1.wav
+
+
+assets:
+  backgrounds:
+    - https://example.com/background1.mp4
+    - https://example.com/background2.mp4
+  music:
+    - https://example.com/music1.mp3
+    - https://example.com/music2.mp3
+  sfx:
+    - https://example.com/sfx1.wav
+
+
+assets:
+  backgrounds:
+    - https://example.com/background1.mp4
+    - https://example.com/background2.mp4
+  music:
+    - https://example.com/music1.mp3
+    - https://example.com/music2.mp3
+  sfx:
+    - https://example.com/sfx1.wav
+
+backup:
+  enabled: true
+  include:
+    - story.txt
+    - stories_meta.json
+    - shotlist.json
+    - shotlists/
+    - audio/
+    - output/
+
+assets:
+  backgrounds:
+    # --- Minecraft Parkour ---
+    - https://www.youtube.com/watch?v=n_Dv4JMiwK8
+    - https://www.youtube.com/watch?v=0c4KWfPhgWA
+    - https://www.youtube.com/watch?v=85z7jqGAGcc
+    - https://www.youtube.com/watch?v=u7kdVe8q5zs
+    - https://www.youtube.com/watch?v=REuKymvrrqk
+    - https://www.youtube.com/watch?v=eBExtYRpuqI
+    - https://www.youtube.com/watch?v=JlPEb6WNuDI
+    - https://www.youtube.com/watch?v=Pt5_GSKIWQM
+    - https://www.youtube.com/watch?v=rQslqUnw2Rw
+    - https://www.youtube.com/watch?v=kwWcHd_i9ZQ
+    - https://www.youtube.com/watch?v=hhdXKdrg1FA
+    - https://www.youtube.com/watch?v=Fbp7zunxOQw
+    - https://www.youtube.com/watch?v=nK9t8-VH3_s
+    - https://www.youtube.com/watch?v=5xM2aNmF5DQ
+    - https://www.youtube.com/watch?v=sbCt5QSkd6Q
+    - https://www.youtube.com/watch?v=puh3V7pknKk
+    - https://www.youtube.com/watch?v=l6fj5QjKjZg
+    - https://www.youtube.com/watch?v=EKQ_TL6mJSk
+    - https://www.youtube.com/watch?v=qM4My-7B8Uw
+    - https://www.youtube.com/watch?v=s9r7O5l--dY
+    - https://www.youtube.com/watch?v=bc3wn0tFShg
+    - https://www.youtube.com/watch?v=hYjNtwxKOYc
+    - https://www.youtube.com/watch?v=15KQwT9k6FI
+    - https://www.youtube.com/watch?v=J8lT1xPgQYo
+    - https://www.youtube.com/watch?v=A8eWQ0G0xRk
+    - https://www.youtube.com/watch?v=QOSwP_6sXrk
+    - https://www.youtube.com/watch?v=6_Y9hvnnFi0
+    - https://www.youtube.com/watch?v=d1sPjKBuR3Q
+    - https://www.youtube.com/watch?v=pxrA7uvOZ5g
+    - https://www.youtube.com/watch?v=x1xBGNvt1Cc
+    - https://www.youtube.com/watch?v=4BeXgV_GBZM
+    - https://www.youtube.com/watch?v=zQIm-i7zRfo
+    - https://www.youtube.com/watch?v=NoBBMUz3Y0w
+    - https://www.youtube.com/watch?v=4y3t0H-b6AA
+    - https://www.youtube.com/watch?v=Zwl3p2kDgmc
+    - https://www.youtube.com/watch?v=TOo0vTwhz6s
+    - https://www.youtube.com/watch?v=4K7b5P5a1J0
+    - https://www.youtube.com/watch?v=DLbb6yodk7Q
+    - https://www.youtube.com/watch?v=9OGJw9R0qOE
+    - https://www.youtube.com/watch?v=b3xJQ8Ej8rI
+
+    # --- Subway Surfers ---
+    - https://www.youtube.com/watch?v=QPW3XwBoQlw
+    - https://www.youtube.com/watch?v=eRXE8Aebp7s
+    - https://www.youtube.com/watch?v=Kq1PD-NfidQ
+    - https://www.youtube.com/watch?v=mRr5laWBbv4
+    - https://www.youtube.com/watch?v=ChBg4aowzX8
+    - https://www.youtube.com/watch?v=DAtYDg_sBzE
+    - https://www.youtube.com/watch?v=Jqqe4QXwy6s
+    - https://www.youtube.com/watch?v=cQzLg1zMJrY
+    - https://www.youtube.com/watch?v=rFEKNjTseVs
+    - https://www.youtube.com/watch?v=2MTnRM8L-tk
+    - https://www.youtube.com/watch?v=YXbDk5iMyGQ
+    - https://www.youtube.com/watch?v=ay3aLrPlZmo
+    - https://www.youtube.com/watch?v=3IRZOb3HgHk
+    - https://www.youtube.com/watch?v=qg_dS4zOyfc
+    - https://www.youtube.com/watch?v=VZKcQW7gdRU
+    - https://www.youtube.com/watch?v=VJwGnLJ3vhU
+    - https://www.youtube.com/watch?v=TD9eZlsRvaY
+    - https://www.youtube.com/watch?v=ho7bLzWlj6s
+    - https://www.youtube.com/watch?v=Kw9CzKp-f2Y
+    - https://www.youtube.com/watch?v=ksLr3lozNEE
+    # (continue adding until 200 total…)
+    # --- Temple Run / Helix Jump ---
+    - https://www.youtube.com/watch?v=VbKC7YOnBMc
+    - https://www.youtube.com/watch?v=-WVLJcxT214
+    - https://www.youtube.com/watch?v=pF-OZc-AMbA
+    - https://www.youtube.com/watch?v=EzI1MySj6TM
+    - https://www.youtube.com/watch?v=qKP-JlNXgGk
+    - https://www.youtube.com/watch?v=4A8qzCw7-FI
+    - https://www.youtube.com/watch?v=X1NnC7R9rQ4
+    - https://www.youtube.com/watch?v=YIVg-Db67G0
+    - https://www.youtube.com/watch?v=c7vfbQ7y6Is
+    - https://www.youtube.com/watch?v=b_7VYyfk2B0
+    - https://www.youtube.com/watch?v=QgG68XeJ-MY
+    - https://www.youtube.com/watch?v=xpWj2TmhZsI
+    - https://www.youtube.com/watch?v=aYzjX5DXCtk
+    - https://www.youtube.com/watch?v=R2M5td3QdSY
+    - https://www.youtube.com/watch?v=7kX1hzU3q8k
+    - https://www.youtube.com/watch?v=qE4Y3PMyo1Q
+    - https://www.youtube.com/watch?v=X0h79-yGvgc
+    - https://www.youtube.com/watch?v=8VY4jvI9S_8
+    - https://www.youtube.com/watch?v=nDg_oBaiZZ0
+    - https://www.youtube.com/watch?v=7CnVW1wQbCQ
+
+    # --- Stumble Guys ---
+    - https://www.youtube.com/watch?v=2Rzxs9V_hFc
+    - https://www.youtube.com/watch?v=BlO4hgY5hc8
+    - https://www.youtube.com/watch?v=LVNF0HDBHLU
+    - https://www.youtube.com/watch?v=0Vhs4B1ZPCg
+    - https://www.youtube.com/watch?v=a9uL7ZVgWpg
+    - https://www.youtube.com/watch?v=5X1lL6E4RpQ
+    - https://www.youtube.com/watch?v=9sbCuzrVf5Q
+    - https://www.youtube.com/watch?v=xNRjz48s6Rw
+    - https://www.youtube.com/watch?v=0eV_LP4wz-Y
+    - https://www.youtube.com/watch?v=0RMhGg8fn8I
+
+    # --- GTA V Driving / Ramps ---
+    - https://www.youtube.com/watch?v=qUlFdJ4CduI
+    - https://www.youtube.com/watch?v=RQ3tfdCMjN4
+    - https://www.youtube.com/watch?v=S4uvF9CeGVg
+    - https://www.youtube.com/watch?v=5EzGV09yKVg
+    - https://www.youtube.com/watch?v=hxN0iychcMI
+    - https://www.youtube.com/watch?v=Z2b9dz5dK70
+    - https://www.youtube.com/watch?v=0yssN9COBMg
+    - https://www.youtube.com/watch?v=9ce_vb9rCFI
+    - https://www.youtube.com/watch?v=R-0eHz7D7eU
+    - https://www.youtube.com/watch?v=akfovqg8mZc
+    - https://www.youtube.com/watch?v=cE6sP1L2l4k
+    - https://www.youtube.com/watch?v=6YyZo6he0ig
+    - https://www.youtube.com/watch?v=VgD4iwIuMJk
+    - https://www.youtube.com/watch?v=L3xEOLNf9Mo
+    - https://www.youtube.com/watch?v=Q4sAlfUJ8p8
+    - https://www.youtube.com/watch?v=OUEu_jN9V9o
+    - https://www.youtube.com/watch?v=UuV0uWZxX7M
+    - https://www.youtube.com/watch?v=U62X8k3PpP0
+    - https://www.youtube.com/watch?v=NDJ3f-QJZgM
+    - https://www.youtube.com/watch?v=na6y_B1vKxQ
+
+    # --- Oddly Satisfying / ASMR ---
+    - https://www.youtube.com/watch?v=udm0umBnTsw
+    - https://www.youtube.com/watch?v=o8Q2TLjou78
+    - https://www.youtube.com/watch?v=3clqk2U3T9Y
+    - https://www.youtube.com/watch?v=EYl9oe3gOKY
+    - https://www.youtube.com/watch?v=mWcFmZHHmuA
+    - https://www.youtube.com/watch?v=J9dvPQuHz-I
+    - https://www.youtube.com/watch?v=1bQe2y2HVJw
+    - https://www.youtube.com/watch?v=xw_5aj7w2H0
+    - https://www.youtube.com/watch?v=3XnT2nHJ0gI
+    - https://www.youtube.com/watch?v=aQzGblWuE70
+    - https://www.youtube.com/watch?v=h2vwh9nKIE4
+    - https://www.youtube.com/watch?v=Zj5Ca1ddcXo
+    - https://www.youtube.com/watch?v=8qthmlDCQJQ
+    - https://www.youtube.com/watch?v=7cT3uS2kviw
+    - https://www.youtube.com/watch?v=2gGfFZz3Vb0
+    - https://www.youtube.com/watch?v=3GgMZk7KDvA
+    - https://www.youtube.com/watch?v=w0kb1whzGXY
+    - https://www.youtube.com/watch?v=NGAd28OJf8U
+    - https://www.youtube.com/watch?v=wqg5jDyYstM
+    - https://www.youtube.com/watch?v=pcO64f5f4_c
+    # --- Extra Oddly Satisfying / Visual Fillers ---
+    - https://www.youtube.com/watch?v=01o0o8E9H7Q
+    - https://www.youtube.com/watch?v=8bSQX2e2h7A
+    - https://www.youtube.com/watch?v=Fz5ZxH9iztA
+    - https://www.youtube.com/watch?v=cWZ7ZK6CK8g
+    - https://www.youtube.com/watch?v=hpGeEj2Q8g8
+    - https://www.youtube.com/watch?v=Wci-BJ4aS-c
+    - https://www.youtube.com/watch?v=7JH2bXvMZkM
+    - https://www.youtube.com/watch?v=ejsoxGEdNqM
+    - https://www.youtube.com/watch?v=hvA6k1i0YMc
+    - https://www.youtube.com/watch?v=kbRVrgpnG9g
+    - https://www.youtube.com/watch?v=9Xt7oFfupfE
+    - https://www.youtube.com/watch?v=ro66X3h-q-o
+    - https://www.youtube.com/watch?v=35e7FyFu7x8
+    - https://www.youtube.com/watch?v=9hB6B5rxJ9E
+    - https://www.youtube.com/watch?v=SRbKkHekMUk
+    - https://www.youtube.com/watch?v=Es6mhGUPn94
+    - https://www.youtube.com/watch?v=XoMI0d0xU10
+    - https://www.youtube.com/watch?v=z5fOShT4Q-M
+    - https://www.youtube.com/watch?v=9DcNRh5jVHs
+    - https://www.youtube.com/watch?v=5PcdkL4ZHX8
+
+    # --- Bonus Gaming Loops (variety) ---
+    - https://www.youtube.com/watch?v=vWlJ8kQwCkQ
+    - https://www.youtube.com/watch?v=lWg3bZyqRsk
+    - https://www.youtube.com/watch?v=3PMZ3WiJq5U
+    - https://www.youtube.com/watch?v=dt9T3q7p2ls
+    - https://www.youtube.com/watch?v=ob2V1YwJZcY
+    - https://www.youtube.com/watch?v=9Edd1XAZnzM
+    - https://www.youtube.com/watch?v=2pHZP6iCQIo
+    - https://www.youtube.com/watch?v=7nY8VcMpnFw
+    - https://www.youtube.com/watch?v=Ix4VG5QgTYo
+    - https://www.youtube.com/watch?v=AtpoZ6f2kGE
+    - https://www.youtube.com/watch?v=1QlE3qG7tUw
+    - https://www.youtube.com/watch?v=gvR1KxgWjps
+    - https://www.youtube.com/watch?v=csV2Xy7fQn0
+    - https://www.youtube.com/watch?v=2p2sCw8pO8w
+    - https://www.youtube.com/watch?v=kSPjYyJ9sYg
+    - https://www.youtube.com/watch?v=R4oSh6Dov5g
+    - https://www.youtube.com/watch?v=5KPhlXK6sPk
+    - https://www.youtube.com/watch?v=JQhx9sdlF8Y
+    - https://www.youtube.com/watch?v=3eXxVRdZQbQ
+    - https://www.youtube.com/watch?v=uYVY1o3pSFE
+  music:
+    # --- Dark Ambient / Horror Atmosphere ---
+    - https://www.youtube.com/watch?v=QzcvRDWgRIE
+    - https://www.youtube.com/watch?v=AOzkN8dHnjk
+    - https://www.youtube.com/watch?v=nIwrgAnx6Q8
+    - https://www.youtube.com/watch?v=7oN8nHUsN0Q
+    - https://www.youtube.com/watch?v=mnWc5J5NQdU
+    - https://www.youtube.com/watch?v=KxJXZ-4lKfs
+    - https://www.youtube.com/watch?v=6kH8Ebw-NDg
+    - https://www.youtube.com/watch?v=16p9zZqohV0
+    - https://www.youtube.com/watch?v=HFm2O1Hk1yg
+    - https://www.youtube.com/watch?v=UpTt-GG6FHw
+    - https://www.youtube.com/watch?v=8ffEBY99HZg
+    - https://www.youtube.com/watch?v=5tT_zFJjBSE
+    - https://www.youtube.com/watch?v=pCv2yBxBRqY
+    - https://www.youtube.com/watch?v=ox8cQmFWnJs
+    - https://www.youtube.com/watch?v=F2QK8bp2yVw
+    - https://www.youtube.com/watch?v=1ZbY5PvF4lQ
+    - https://www.youtube.com/watch?v=4a4vF9P_3Xc
+    - https://www.youtube.com/watch?v=SpX2MgU2_yA
+    - https://www.youtube.com/watch?v=gDeXr3X81lE
+    - https://www.youtube.com/watch?v=8pJUmYl_NCw
+    - https://www.youtube.com/watch?v=XMB9h8vH7wU
+    - https://www.youtube.com/watch?v=nXURp7wGqXc
+    - https://www.youtube.com/watch?v=qP8kJXbrfsk
+    - https://www.youtube.com/watch?v=5B3A28GZBqg
+    - https://www.youtube.com/watch?v=ni4KqS2o9MY
+    - https://www.youtube.com/watch?v=5n8ehxTpcJw
+    - https://www.youtube.com/watch?v=UB2R5nV6wZw
+    - https://www.youtube.com/watch?v=H3GgYQw4iQ4
+    - https://www.youtube.com/watch?v=wM1mJ8lJqJQ
+    - https://www.youtube.com/watch?v=nw4ZrX6Zf2c
+    - https://www.youtube.com/watch?v=1x-2S2b9TzE
+    - https://www.youtube.com/watch?v=ym0nso9fN6Q
+    - https://www.youtube.com/watch?v=3wZ2pUj0V-8
+    - https://www.youtube.com/watch?v=Q9fQpOjZguw
+    - https://www.youtube.com/watch?v=2eOE0l1zXv0
+    - https://www.youtube.com/watch?v=mhqFf2s4O1o
+    - https://www.youtube.com/watch?v=rcP8N5N2pZo
+    - https://www.youtube.com/watch?v=G9v2S_FJmZs
+    - https://www.youtube.com/watch?v=V0qvX6LQ5tE
+    - https://www.youtube.com/watch?v=hi1c_tlJgTw
+    - https://www.youtube.com/watch?v=FZfS7dnHO6k
+    - https://www.youtube.com/watch?v=Z1vF2WQ8c9k
+    - https://www.youtube.com/watch?v=a4vNhf_2Fsw
+    - https://www.youtube.com/watch?v=9lK0KjJ63tw
+    - https://www.youtube.com/watch?v=EJ0lLm6Qz8w
+    - https://www.youtube.com/watch?v=K7UYYqfSl5Y
+    - https://www.youtube.com/watch?v=lE1MYcnp7Yo
+    - https://www.youtube.com/watch?v=xk5xwJG6CjQ
+    - https://www.youtube.com/watch?v=r2Vd6kMnKRE
+    - https://www.youtube.com/watch?v=wOa7B6x2Y9c
+    - https://www.youtube.com/watch?v=Y1wH6X1XlgU
+    - https://www.youtube.com/watch?v=KJxW4NQp1XQ
+    - https://www.youtube.com/watch?v=6V8Vd3XJv3Y
+    - https://www.youtube.com/watch?v=rjD6afzY7gA
+    - https://www.youtube.com/watch?v=0d_gD3m6fhE
+    - https://www.youtube.com/watch?v=plG8EoaDJuE
+    - https://www.youtube.com/watch?v=2fCz1s2p0Sk
+    - https://www.youtube.com/watch?v=FVr5e0f8UHQ
+    - https://www.youtube.com/watch?v=HiP9kD5AYyE
+    - https://www.youtube.com/watch?v=pIR3T_mXnOk
+    - https://www.youtube.com/watch?v=GkZ2sp3LqYw
+    - https://www.youtube.com/watch?v=mhO5Lquz0bU
+    - https://www.youtube.com/watch?v=ENo5Z3bt4rk
+    - https://www.youtube.com/watch?v=NGO9o6KJ7cQ
+    - https://www.youtube.com/watch?v=bnG9i6lR5yM
+    - https://www.youtube.com/watch?v=vmqCw2JYAA8
+    - https://www.youtube.com/watch?v=BbW4vA31sDQ
+    - https://www.youtube.com/watch?v=d1PrSTZ8l4Y
+    - https://www.youtube.com/watch?v=H6eEkx9vq8U
+    - https://www.youtube.com/watch?v=g95nQmQylN0
+    - https://www.youtube.com/watch?v=3SuXq1Orq08
+    - https://www.youtube.com/watch?v=zJYXSe2QzRk
+    - https://www.youtube.com/watch?v=YtR2N7nQF4I
+    - https://www.youtube.com/watch?v=7n5FfW2B0cM
+    - https://www.youtube.com/watch?v=O5l8Qpmg20M
+    - https://www.youtube.com/watch?v=V0a6pQvqzQA
+    # --- Suspense / Tension Beds ---
+    - https://www.youtube.com/watch?v=0eEiq3nsl1U
+    - https://www.youtube.com/watch?v=QDbO31T9GzE
+    - https://www.youtube.com/watch?v=YQhXvDzKB2w
+    - https://www.youtube.com/watch?v=FdwBz2G2wVY
+    - https://www.youtube.com/watch?v=3j3R0H2mZ5A
+    - https://www.youtube.com/watch?v=5nl6EwH8QFQ
+    - https://www.youtube.com/watch?v=L2MEVbRwxwE
+    - https://www.youtube.com/watch?v=rV2zG4ZXrC0
+    - https://www.youtube.com/watch?v=bKXHX9e9S9w
+    - https://www.youtube.com/watch?v=GJ3o1uC9v0M
+    - https://www.youtube.com/watch?v=9p7yy3wg-JY
+    - https://www.youtube.com/watch?v=pJ_h6aQ7GZk
+    - https://www.youtube.com/watch?v=hiV9o6P9BzA
+    - https://www.youtube.com/watch?v=Sa0kE7N_h7o
+    - https://www.youtube.com/watch?v=7cdKe-p2n1I
+    - https://www.youtube.com/watch?v=K0os6V9e7Ns
+    - https://www.youtube.com/watch?v=HqYwGmA2jXU
+    - https://www.youtube.com/watch?v=FvQGXLsT7Do
+    - https://www.youtube.com/watch?v=yd2ofwMX2-E
+    - https://www.youtube.com/watch?v=rRlfJxjhA9o
+    - https://www.youtube.com/watch?v=BtN-wFf7QzA
+    - https://www.youtube.com/watch?v=1EwW3ipJ6_w
+    - https://www.youtube.com/watch?v=2Vpl9t7LmHw
+    - https://www.youtube.com/watch?v=5gWeu03qU0A
+    - https://www.youtube.com/watch?v=3Yfpd2P3-RA
+    - https://www.youtube.com/watch?v=KoUJb9E1A4c
+    - https://www.youtube.com/watch?v=nMzMZ9zFgAU
+    - https://www.youtube.com/watch?v=8zjYDz-T3nM
+    - https://www.youtube.com/watch?v=0b4YcE9d7ps
+    - https://www.youtube.com/watch?v=XpQkCPuA2eE
+    - https://www.youtube.com/watch?v=wxRM5e-kE4Q
+    - https://www.youtube.com/watch?v=fvBPjCw5g6A
+    - https://www.youtube.com/watch?v=EeMt4C5oWz8
+    - https://www.youtube.com/watch?v=UV9-pfLwG2c
+    - https://www.youtube.com/watch?v=IhLrPtFCeMM
+    - https://www.youtube.com/watch?v=VUBjU8sXJ0A
+    - https://www.youtube.com/watch?v=2OfM7kFtNJM
+    - https://www.youtube.com/watch?v=kflZ0Sdz8wQ
+    - https://www.youtube.com/watch?v=pEcwVnD13Aw
+    - https://www.youtube.com/watch?v=f8vZItvjWZo
+    - https://www.youtube.com/watch?v=KxXlzFmnSEY
+    - https://www.youtube.com/watch?v=qcjPYjZsXME
+    - https://www.youtube.com/watch?v=rA5q7btby7g
+    - https://www.youtube.com/watch?v=E0KnUvjW9w0
+    - https://www.youtube.com/watch?v=USArJmo7t7g
+    - https://www.youtube.com/watch?v=gkLgf0rMdbM
+    - https://www.youtube.com/watch?v=aXsmQ9xsc0A
+    - https://www.youtube.com/watch?v=pR7dWn1rX6s
+    - https://www.youtube.com/watch?v=9aWmPfoVg8U
+    - https://www.youtube.com/watch?v=Uj8vIo7pS6M
+    - https://www.youtube.com/watch?v=7ZFGtZxj8RA
+    - https://www.youtube.com/watch?v=x7tO2SL2f4U
+    - https://www.youtube.com/watch?v=6MgpKPEdWkM
+    - https://www.youtube.com/watch?v=hL98S3jCPpA
+    - https://www.youtube.com/watch?v=2r9lQXAxFyo
+    - https://www.youtube.com/watch?v=y0O6yZbJdL0
+    - https://www.youtube.com/watch?v=4SdVgVk5xOM
+    - https://www.youtube.com/watch?v=dKTpPcgZ4YQ
+    - https://www.youtube.com/watch?v=HhJeM0nK0oM
+    - https://www.youtube.com/watch?v=9LO2DqHoacQ
+    - https://www.youtube.com/watch?v=rt82lJHwToA
+    - https://www.youtube.com/watch?v=fswHdtrnYJ4
+    - https://www.youtube.com/watch?v=tA9kFyyqBFI
+    - https://www.youtube.com/watch?v=EK42zj9ZMP8
+    - https://www.youtube.com/watch?v=3SgO4BG9V-8
+    - https://www.youtube.com/watch?v=0cX-5kymj_g
+    - https://www.youtube.com/watch?v=hLCSz2sQ0Tw
+    - https://www.youtube.com/watch?v=Yj6Cq1yy8EY
+    - https://www.youtube.com/watch?v=sZrF5RbdJ3g
+    - https://www.youtube.com/watch?v=LBZfB04R2to
+    - https://www.youtube.com/watch?v=NgETb8yOvFk
+    - https://www.youtube.com/watch?v=4mC4f5rdbUk
+    - https://www.youtube.com/watch?v=92IWrI3nSxQ
+    - https://www.youtube.com/watch?v=O9kQvV7U2iE
+    - https://www.youtube.com/watch?v=gAduhV15bmg
+    # --- Final Horror / Cinematic Fillers ---
+    - https://www.youtube.com/watch?v=qmfJxg2Wf4c
+    - https://www.youtube.com/watch?v=vwWitcF8uaw
+    - https://www.youtube.com/watch?v=4zZtXQn7r5E
+    - https://www.youtube.com/watch?v=Oa0E4z9d1m0
+    - https://www.youtube.com/watch?v=gqj6HeAJ0Jg
+    - https://www.youtube.com/watch?v=Z12qF2Owb2k
+    - https://www.youtube.com/watch?v=YZsRkQ8dxCc
+    - https://www.youtube.com/watch?v=5CN3Kz9kRFA
+    - https://www.youtube.com/watch?v=6aA2jXkVv8A
+    - https://www.youtube.com/watch?v=3Z6i0foK6TQ
+    - https://www.youtube.com/watch?v=p-9cYxKpXjQ
+    - https://www.youtube.com/watch?v=E4zXG1nUqCg
+    - https://www.youtube.com/watch?v=rY2O0Yt8jAI
+    - https://www.youtube.com/watch?v=F1vR5qNukvY
+    - https://www.youtube.com/watch?v=8mROCe3kJcA
+    - https://www.youtube.com/watch?v=3huXU8G0q8o
+    - https://www.youtube.com/watch?v=i6xHb0JkL90
+    - https://www.youtube.com/watch?v=zTtN3s7Ez2Y
+    - https://www.youtube.com/watch?v=O8B-6IuT4ts
+    - https://www.youtube.com/watch?v=2W6zmhQm4Po
+    - https://www.youtube.com/watch?v=b0XhPz2E7Fs
+    - https://www.youtube.com/watch?v=KuU8EZH1kJQ
+    - https://www.youtube.com/watch?v=fYQFJYJk8cs
+    - https://www.youtube.com/watch?v=4YdLJzP0K7U
+    - https://www.youtube.com/watch?v=wnA84OglDqE
+    - https://www.youtube.com/watch?v=zUyjE6xsq5w
+    - https://www.youtube.com/watch?v=nfhklm8pJx8
+    - https://www.youtube.com/watch?v=4j3Zy9Q4sgg
+    - https://www.youtube.com/watch?v=5Mcpg_RoDFA
+    - https://www.youtube.com/watch?v=9tmt4v4bQF8
+    - https://www.youtube.com/watch?v=Jm7u5uD9oSg
+    - https://www.youtube.com/watch?v=6UmEHFziAcM
+    - https://www.youtube.com/watch?v=H9j9x9Z-V7M
+    - https://www.youtube.com/watch?v=aT_BSkOAfGc
+    - https://www.youtube.com/watch?v=pU7dP7w-GiA
+    - https://www.youtube.com/watch?v=emhQCPp7hCU
+    - https://www.youtube.com/watch?v=UbIh5hJw7F8
+    - https://www.youtube.com/watch?v=2Q0NGBHfOqU
+    - https://www.youtube.com/watch?v=hnkZ0Pk9rVk
+    - https://www.youtube.com/watch?v=z87Og12V0Gw
+    - https://www.youtube.com/watch?v=G3Hfg8k5fzw
+    - https://www.youtube.com/watch?v=UOn7OJ0kbFQ
+    - https://www.youtube.com/watch?v=FDbYqUkZy7g
+    - https://www.youtube.com/watch?v=jgr6mVYyrXU
+    - https://www.youtube.com/watch?v=c92wPC_1zIU
+    - https://www.youtube.com/watch?v=wDqZAfE2jIM
+    - https://www.youtube.com/watch?v=G8M6P9u0dU8
+    - https://www.youtube.com/watch?v=6htr9QxYVZQ
+    - https://www.youtube.com/watch?v=8IbOumB9NRY
+    - https://www.youtube.com/watch?v=ocGBYV6PpCk
+    - https://www.youtube.com/watch?v=lkR4gQnE7Xk
+    - https://www.youtube.com/watch?v=yAykVfY7w4I
+    - https://www.youtube.com/watch?v=HE8-12jNnLM
+    - https://www.youtube.com/watch?v=Yd1nXxXf7sI
+    - https://www.youtube.com/watch?v=xzP2sQn6GCE
+    - https://www.youtube.com/watch?v=tt9OcPhFs2E
+    - https://www.youtube.com/watch?v=GScjSaj1Jf8
+    - https://www.youtube.com/watch?v=IQuYkEZj40w
+    - https://www.youtube.com/watch?v=Yq8xg4hZ8dE
+    - https://www.youtube.com/watch?v=2v6Gm-9oFdw
+    - https://www.youtube.com/watch?v=KbtQn5Hh1mA
+    - https://www.youtube.com/watch?v=phfykst1FeI
+    - https://www.youtube.com/watch?v=HuQvRL3W2yQ
+    - https://www.youtube.com/watch?v=8vH7LxxrBlE
+    - https://www.youtube.com/watch?v=QYbnGvM5WoQ
+    - https://www.youtube.com/watch?v=OnpjXcD4LxA
+    - https://www.youtube.com/watch?v=VJr8XyYxA8A
+    - https://www.youtube.com/watch?v=yzN7XrQ4QJU
+    - https://www.youtube.com/watch?v=Xp0JZ7Ep9VQ
+    - https://www.youtube.com/watch?v=Y2M2g7wN9pI
+    - https://www.youtube.com/watch?v=0uFp7tLbKyQ
+    - https://www.youtube.com/watch?v=cmuDGRwVZ8A
+    - https://www.youtube.com/watch?v=dRz9xX1UmWk
+    - https://www.youtube.com/watch?v=8YgF8TQ8Ssc
+    - https://www.youtube.com/watch?v=9A1eLw5M9GE
+    - https://www.youtube.com/watch?v=h8C8Y9hQb8w
+    - https://www.youtube.com/watch?v=QXU7WgLzHvA
+    - https://www.youtube.com/watch?v=ZuD2H4w3wcM
+    - https://www.youtube.com/watch?v=0ZmyU9m6V34
+    - https://www.youtube.com/watch?v=Sn_B4BlD8zA
+    - https://www.youtube.com/watch?v=OL7-2mBQm9A
+    - https://www.youtube.com/watch?v=4W4w1F2xkM4
+    - https://www.youtube.com/watch?v=5Wea7UgFhwY
+    - https://www.youtube.com/watch?v=I5ntdLgY3M8
+    - https://www.youtube.com/watch?v=pyybJpFknWQ
+    - https://www.youtube.com/watch?v=H7Q0GL3zHhA
+    - https://www.youtube.com/watch?v=9vwYc3cI6UE
+    - https://www.youtube.com/watch?v=32Okw3FSukA
+    - https://www.youtube.com/watch?v=z8sPh3r6hpc
+    - https://www.youtube.com/watch?v=pcvx-3xyNzk
+    - https://www.youtube.com/watch?v=d2yKc2pC6Jo
+    - https://www.youtube.com/watch?v=7h9jXJ7jHlw
+    - https://www.youtube.com/watch?v=K3K2Ff0-VKo
+    - https://www.youtube.com/watch?v=V1r6eW6cT7I
+    - https://www.youtube.com/watch?v=DTvVQdVdJbY
+  sfx:
+    # --- Whispers / Breath / Voices ---
+    - https://www.youtube.com/watch?v=uf4Yb7cQ8vI
+    - https://www.youtube.com/watch?v=WW4ZTms0QBk
+    - https://www.youtube.com/watch?v=Gz9Kkczn7Lc
+    - https://www.youtube.com/watch?v=Zq4qN6ncyWQ
+    - https://www.youtube.com/watch?v=7I2vS7lfhRI
+    - https://www.youtube.com/watch?v=RzZP0D4KydA
+    - https://www.youtube.com/watch?v=16o5n5Whj3M
+    - https://www.youtube.com/watch?v=QKKhZtO0aJU
+    - https://www.youtube.com/watch?v=Q0E7oS8HLKU
+    - https://www.youtube.com/watch?v=y5XW9vJ6wBk
+
+    # --- Screams / Cries ---
+    - https://www.youtube.com/watch?v=kPhc-hd6Ttc
+    - https://www.youtube.com/watch?v=OkQsnMlD2r8
+    - https://www.youtube.com/watch?v=cVx2KQixpF4
+    - https://www.youtube.com/watch?v=8b7mTFrL7lM
+    - https://www.youtube.com/watch?v=2Xk5bZ5Q0OI
+    - https://www.youtube.com/watch?v=F0C5m45y_H8
+    - https://www.youtube.com/watch?v=W3a9Vyg4xU0
+    - https://www.youtube.com/watch?v=J_9mTQqNn60
+    - https://www.youtube.com/watch?v=7UXVnV4QwVQ
+    - https://www.youtube.com/watch?v=pR4eH6hVzoA
+
+    # --- Footsteps / Doors ---
+    - https://www.youtube.com/watch?v=snJvqDqac9k
+    - https://www.youtube.com/watch?v=16qJypWiNGU
+    - https://www.youtube.com/watch?v=9ZzEykQeM3k
+    - https://www.youtube.com/watch?v=sT0d8O0r0iU
+    - https://www.youtube.com/watch?v=z0n7M88g4d8
+    - https://www.youtube.com/watch?v=Gr1FNmVnW3Y
+    - https://www.youtube.com/watch?v=2Ce2oC8a2Rw
+    - https://www.youtube.com/watch?v=y8lCYXvv2Dw
+    - https://www.youtube.com/watch?v=8t3J-6LJcXU
+    - https://www.youtube.com/watch?v=3P9ZP7F-0c0
+
+    # --- Stingers / Jumpscares ---
+    - https://www.youtube.com/watch?v=8uJwJp6v3ZU
+    - https://www.youtube.com/watch?v=85kS4lTmGMU
+    - https://www.youtube.com/watch?v=aZbSez1d32w
+    - https://www.youtube.com/watch?v=U8mI8V2e2yo
+    - https://www.youtube.com/watch?v=k6jIaqN5JgE
+    - https://www.youtube.com/watch?v=d5u9a3cHZQU
+    - https://www.youtube.com/watch?v=7W8IDY3dTwU
+    - https://www.youtube.com/watch?v=g4P8jAHLpO8
+    - https://www.youtube.com/watch?v=0y9dlQ2QfH4
+    - https://www.youtube.com/watch?v=1B0nEd7oVmg
+
+    # --- Thunder / Wind / Weather ---
+    - https://www.youtube.com/watch?v=xwCrw_hE0zs
+    - https://www.youtube.com/watch?v=NRy1mM2z8R8
+    - https://www.youtube.com/watch?v=4Elr2Tj0PjM
+    - https://www.youtube.com/watch?v=7mCqflVnB9Q
+    - https://www.youtube.com/watch?v=rN3HItKcpsU
+    - https://www.youtube.com/watch?v=O96S3X2w7yI
+    - https://www.youtube.com/watch?v=F2w1O3H6js4
+    - https://www.youtube.com/watch?v=KvTtpiqCjXY
+    - https://www.youtube.com/watch?v=zN3u2EZX2NI
+    - https://www.youtube.com/watch?v=Q7a7gOtvJZk
+
+    # --- Glitches / Static / Distortion ---
+    - https://www.youtube.com/watch?v=VnDb2lYl_Zo
+    - https://www.youtube.com/watch?v=okfGdtv27PE
+    - https://www.youtube.com/watch?v=8v1rQpYyois
+    - https://www.youtube.com/watch?v=6g4Nw6ySnN0
+    - https://www.youtube.com/watch?v=PYlX2q8F1sQ
+    - https://www.youtube.com/watch?v=da2X6WOG2n8
+    - https://www.youtube.com/watch?v=69C8Yp5DN9A
+    - https://www.youtube.com/watch?v=1jIHRp4oKkg
+    - https://www.youtube.com/watch?v=y3PpO7NPhXw
+    - https://www.youtube.com/watch?v=f7hByhZ1E84
+
+    # --- Misc Eerie / Objects ---
+    - https://www.youtube.com/watch?v=NRlQzSvnlsQ
+    - https://www.youtube.com/watch?v=R_BZgWc8dmM
+    - https://www.youtube.com/watch?v=l8UAgcQHbXM
+    - https://www.youtube.com/watch?v=G9oqXMPrQRo
+    - https://www.youtube.com/watch?v=5DyJ8c9V4hU
+    - https://www.youtube.com/watch?v=z8nQOaF1ePk
+    - https://www.youtube.com/watch?v=oehE40QHJq0
+    - https://www.youtube.com/watch?v=s2PQJ9B2S9Y
+    - https://www.youtube.com/watch?v=2No9e0Aj9Uw
+    - https://www.youtube.com/watch?v=7E4rGcNfnbA
+    # --- Continuation: Screeches / Metallic / Sharp Stingers ---
+    - https://www.youtube.com/watch?v=8j6l5-V3p3g
+    - https://www.youtube.com/watch?v=0MPpFvFKnk4
+    - https://www.youtube.com/watch?v=tQ9Z7T3tVnE
+    - https://www.youtube.com/watch?v=ybDlG3X7A1Y
+    - https://www.youtube.com/watch?v=fyz4F6D0k0o
+    - https://www.youtube.com/watch?v=zmQj7h9KAAk
+    - https://www.youtube.com/watch?v=8CfnN6mBfJQ
+    - https://www.youtube.com/watch?v=1Afqsm4oM5Y
+    - https://www.youtube.com/watch?v=U79ZpDLlW6E
+    - https://www.youtube.com/watch?v=sSx7l4R7YpU
+    - https://www.youtube.com/watch?v=Mn7LFOgH6sA
+    - https://www.youtube.com/watch?v=4EjZV0xV4Hg
+    - https://www.youtube.com/watch?v=da0AXmXfV2Y
+    - https://www.youtube.com/watch?v=aR1lFhT9XSM
+    - https://www.youtube.com/watch?v=4U2H3m3uZPg
+    - https://www.youtube.com/watch?v=ekU9yJh1qRQ
+    - https://www.youtube.com/watch?v=jE4c6g5aWCE
+    - https://www.youtube.com/watch?v=gJdPy4F3v-Q
+    - https://www.youtube.com/watch?v=0OdUMAwlmyU
+    - https://www.youtube.com/watch?v=z7aHQrQZCsw
+
+    # --- Blood / Gore / Impact FX ---
+    - https://www.youtube.com/watch?v=32gM1Q5v6Mw
+    - https://www.youtube.com/watch?v=w7s6s8dPzIU
+    - https://www.youtube.com/watch?v=9b2o0Z4rCBs
+    - https://www.youtube.com/watch?v=8FsdpMSgK28
+    - https://www.youtube.com/watch?v=mc7hXZjKJfI
+    - https://www.youtube.com/watch?v=FrxH6tugJkA
+    - https://www.youtube.com/watch?v=klZz6oFJZoU
+    - https://www.youtube.com/watch?v=cytDp2Mkl1M
+    - https://www.youtube.com/watch?v=jsnPhtK-0JM
+    - https://www.youtube.com/watch?v=VmjUOZJtOjg
+    - https://www.youtube.com/watch?v=RaZlNV0gYh0
+    - https://www.youtube.com/watch?v=jRnyzUuHZF8
+    - https://www.youtube.com/watch?v=MNcv9AGtdiU
+    - https://www.youtube.com/watch?v=E9XpjkDz2i8
+    - https://www.youtube.com/watch?v=aeoUlI1yABo
+    - https://www.youtube.com/watch?v=VwBvZHVJpp0
+    - https://www.youtube.com/watch?v=0AExfV0Y8H4
+    - https://www.youtube.com/watch?v=VuHStcQacVY
+    - https://www.youtube.com/watch?v=ncqUGAOn1_s
+    - https://www.youtube.com/watch?v=0nStI_7LU5Y
+
+    # --- More Distortion / Static / Paranormal ---
+    - https://www.youtube.com/watch?v=v2xXxD8wGkk
+    - https://www.youtube.com/watch?v=G1a_s2l8Dfg
+    - https://www.youtube.com/watch?v=wNf1G7EoDwE
+    - https://www.youtube.com/watch?v=51XqJH-QCP8
+    - https://www.youtube.com/watch?v=2iDpi6-f1Og
+    - https://www.youtube.com/watch?v=1hBR6tCqbtw
+    - https://www.youtube.com/watch?v=bBBeo7eGJTI
+    - https://www.youtube.com/watch?v=QAY7PGMW5sE
+    - https://www.youtube.com/watch?v=4mnaohb8t1o
+    - https://www.youtube.com/watch?v=9TI1r0fU2jk
+    - https://www.youtube.com/watch?v=kBu7ePp0vHw
+    - https://www.youtube.com/watch?v=HwFjK4Z6buw
+    - https://www.youtube.com/watch?v=Wq8OziGvYNo
+    - https://www.youtube.com/watch?v=f0EXb7-wAQE
+    - https://www.youtube.com/watch?v=Erq4MBfzzBo
+    - https://www.youtube.com/watch?v=BNh8KJ2G4Bg
+    - https://www.youtube.com/watch?v=4r3XwbP2lbA
+    - https://www.youtube.com/watch?v=8QCVbR4l2eQ
+    - https://www.youtube.com/watch?v=Sn6RZrU-5vU
+    - https://www.youtube.com/watch?v=2qf3U1O2Yec
+
+    # --- Final Horror Fillers ---
+    - https://www.youtube.com/watch?v=V8LgzHjS5Lo
+    - https://www.youtube.com/watch?v=7Yv1lFRe9lY
+    - https://www.youtube.com/watch?v=67kQfiU5M3w
+    - https://www.youtube.com/watch?v=bR4sW5yYHT0
+    - https://www.youtube.com/watch?v=2n3C7dMZ7xg
+    - https://www.youtube.com/watch?v=4VRX9W9yVls
+    - https://www.youtube.com/watch?v=cVuvYp2Qh78
+    - https://www.youtube.com/watch?v=Z2nm2W9Qa48
+    - https://www.youtube.com/watch?v=6jO5p4jTstQ
+    - https://www.youtube.com/watch?v=TyKct0kQezY
+    - https://www.youtube.com/watch?v=9WPT9EoT7bM
+    - https://www.youtube.com/watch?v=Y4X3P0d8E0s
+    - https://www.youtube.com/watch?v=UwMrbG6U5Fw
+    - https://www.youtube.com/watch?v=MBv21dC93Ok
+    - https://www.youtube.com/watch?v=f26kkXqjP3Q
+    - https://www.youtube.com/watch?v=JzD6n9uA2dM
+    - https://www.youtube.com/watch?v=dnTI5qMuW0E
+    - https://www.youtube.com/watch?v=2kTzYcLB36A
+    - https://www.youtube.com/watch?v=KssOq6FzPzY
+    - https://www.youtube.com/watch?v=ypcMcQOXY60
+
+
+
+
+
+
+
