@@ -1,0 +1,1 @@
+def run_scheduler_once(cfg):print('scheduler stub')
